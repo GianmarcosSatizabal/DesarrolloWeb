@@ -1,5 +1,16 @@
+body{
+    font-family: 'Croissant One', cursive;
+}
+
 table{
     border-collapse: collapse;
+    font-size: 20px;
+    font-style: italic;
+    text-align: center;
+    background-image: url("../imagenes/win.png");
+    background-position: center;
+    background-size: 300px;
+    background-repeat: no-repeat;
 }
 
 th,td{
@@ -12,5 +23,5 @@ tr>th{
 }
 
 tbody>tr:hover{
-    background-color:	#DCDCDC;
+    background-color:#FF4500;
 }
