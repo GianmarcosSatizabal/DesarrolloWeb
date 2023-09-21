@@ -1,10 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Short+Stack&display=swap');
+
+
 form{
+    background-color: white;
     position:absolute;
-    top: 100%;
+    top: 100px;
     left: 35%;
+    width: 30%;
     text-align: center;
+    margin-bottom: 50px;
 }
 
 form>img{
-    padding-bottom: 30%;
+    width: 40%;
+    padding-bottom: 25px;
+}
+
+form>input{
+    width: 80%;
+    margin-bottom: 20px;
+    padding: 15px;
+    font-size: 20px;
+    font-family: 'Short Stack', cursive;
+    background-color: white;
+    border-top-style: none;
+    border-right-style: none;
+    border-left-style: none;
+    border-color: #4595BD;
+}
+
+
+
+
+
+/*************************************************** MODIFICANDO EL BOTON ******************************************/
+form>button{
+    width: 80%;
+    padding: 10px;
+    border-radius: 20px;
+    border-top-style: none;
+    border-right-style: none;
+    border-left-style: none;
+    border-bottom: none;
+    font-size: 22px;
+    color: white;
+    font-family: 'Short Stack', cursive;
+    background-color: #4595BD;
+}
+
+form>button:hover{
+    width: 85%;
+    color: black;
+    
+}
+
+/****************************************RECORDAR CONTRASEÑA****************************************/
+
+.recordarContraseña{
+    padding-top: 25px;
+    font-size: 15px;
+    font-family: 'Short Stack', cursive;
 }
