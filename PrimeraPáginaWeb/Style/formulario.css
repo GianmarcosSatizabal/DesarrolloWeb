@@ -1,0 +1,10 @@
+form{
+    position:absolute;
+    top: 100%;
+    left: 35%;
+    text-align: center;
+}
+
+form>img{
+    padding-bottom: 30%;
+}
