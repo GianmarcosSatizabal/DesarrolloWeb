@@ -47,11 +47,13 @@ form>input{
     background: rgba(255, 255, 255, 0.1);
     outline: none;
     backdrop-filter: blur(1px);
+    font-family: 'Short Stack', cursive;
 }
 
 
 /*************************************************** MODIFICANDO EL BOTóN ******************************************/
 form>button{
+    font-family: 'Short Stack', cursive;
     width: 80%;
     padding: 10px;
     border-radius: 20px;
