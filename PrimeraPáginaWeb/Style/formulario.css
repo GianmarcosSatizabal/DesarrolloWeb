@@ -1,14 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Short+Stack&display=swap');
 
-
+body{
+    background-image: url(/DesarrolloWeb/PrimeraPáginaWeb/imagenes/form.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Short Stack', cursive;
+}
 form{
-    background-color: white;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(1px);
+    /* background-color: white; */
     position:absolute;
     top: 100px;
     left: 35%;
     width: 30%;
     text-align: center;
     margin-bottom: 50px;
+    border-radius: 5px;
 }
 
 form>img{
@@ -21,7 +29,6 @@ form>input{
     margin-bottom: 20px;
     padding: 15px;
     font-size: 20px;
-    font-family: 'Short Stack', cursive;
     background-color: white;
     border-top-style: none;
     border-right-style: none;
@@ -44,7 +51,6 @@ form>button{
     border-bottom: none;
     font-size: 22px;
     color: white;
-    font-family: 'Short Stack', cursive;
     background-color: #4595BD;
 }
 
@@ -57,7 +63,8 @@ form>button:hover{
 /****************************************RECORDAR CONTRASEÑA****************************************/
 
 .recordarContraseña{
+    padding-bottom: 25px;
     padding-top: 25px;
-    font-size: 15px;
-    font-family: 'Short Stack', cursive;
+    font-size: 20px;
+    color: white;
 }
