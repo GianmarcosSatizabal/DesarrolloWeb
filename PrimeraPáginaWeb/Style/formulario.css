@@ -5,26 +5,29 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     font-family: 'Short Stack', cursive;
-    
+
 }
 form{
     background: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(1px);
     /* background-color: white; */
     position:absolute;
-    top: 50px;
+    top: 20%;
     left: 35%;
     width: 30%;
     text-align: center;
     margin-bottom: 50px;
     border-radius: 5px;
-    
+
 }
 
-form>img{
-    width: 30%;
-    padding-bottom: 25px;
-    padding-top: 15px;
+form>h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: 35px;
+    color: white;
 }
 
 form>input{
@@ -47,7 +50,7 @@ form>input{
 }
 
 
-/*************************************************** MODIFICANDO EL BOTON ******************************************/
+/*************************************************** MODIFICANDO EL BOTóN ******************************************/
 form>button{
     width: 80%;
     padding: 10px;
@@ -64,10 +67,10 @@ form>button{
 form>button:hover{
     width: 85%;
     color: black;
-    
+
 }
 
-/****************************************RECORDAR CONTRASEÑA****************************************/
+/***************************************************RECORDAR CONTRASEÑA****************************************/
 
 .recordarContraseña{
     padding-bottom: 25px;
