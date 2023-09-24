@@ -35,7 +35,6 @@ form>input{
     margin-bottom: 20px;
     padding: 15px;
     font-size: 20px;
-    border-radius: 10px ;
     border-top: none;
     border-left: none;
     border-right: none;
@@ -44,10 +43,11 @@ form>input{
 }
 
 form>input{
-    background: rgba(255, 255, 255, 0.1);
     outline: none;
-    backdrop-filter: blur(1px);
     font-family: 'Short Stack', cursive;
+    background: none;
+    border-radius: none;
+    cursor: pointer;
 }
 
 
@@ -59,6 +59,10 @@ form>button{
     border-radius: 20px;
     border-top-style: none;
     border-right-style: none;
+}
+
+form>button{
+    cursor: pointer;
     border-left-style: none;
     border-bottom: none;
     font-size: 22px;
@@ -79,4 +83,5 @@ form>button:hover{
     padding-top: 25px;
     font-size: 20px;
     color: white;
+    
 }
