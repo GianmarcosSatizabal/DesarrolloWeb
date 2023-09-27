@@ -1,7 +1,7 @@
 
 *{
-    padding: 0%;
-    margin: 0%;
+    padding: 0px;
+    margin: 0px;
     box-sizing: border-box;
 }
 /************************************************************************DESCUENTO*****************************************************/
@@ -45,11 +45,16 @@ header{
 }
 
 .icono-lupa{
-    width: 14px;
+    width: 25px;
+    height: 25px;
+    
+
 }
 
 .icono-canasta{
-    width: 14px;
+    width: 15px;
+    height: 15px;
+    
 }
 
 .imagen-logo{
@@ -80,7 +85,7 @@ ul{
     justify-content: center;
     align-items: center;
     text-decoration: none;
-    
+    width: 100%;
     
 }
 li{
