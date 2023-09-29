@@ -4,7 +4,7 @@
     margin: 0px;
     box-sizing: border-box;
 }
-/************************************************************************DESCUENTO*****************************************************/
+/************************************************************************DESCUENTO***********************************************/
 .descuento{
     background: #000000;
     width: 100%;
@@ -27,7 +27,7 @@
 
 }
 
-/**********************************************************************ENCABEZADO*************************************************************/
+/**********************************************************************ENCABEZADO**************************************************/
 header{
     width: 100%;
     height: 90px;
@@ -67,7 +67,7 @@ header{
     color: #000000;
 }
 
-/*********************************************************************NAVEGADOR********************************************************************/
+/*********************************************************************NAVEGADOR********************************************/
 nav{
     position: static;
     width: 100%;
@@ -105,7 +105,47 @@ ul li a:hover{
     border-bottom: #000000;
 }
 
-/* ul li a:active{
-    color: #000000;
-    border-bottom: #000000;
-} */
+/*********************************************************************SECCIóN*******************************************/
+section{
+    margin-top: 25px;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-image: url(nike5.jpg);
+    height: 455px;
+}
+section{
+    background-size: 100% ;
+  
+}
+
+
+.banner{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner{
+    right: 350px;
+    top: 260px;
+    height: 100px;
+    width: 40%; 
+    
+    
+    
+}
+
+.banner__h2{
+    font-size: 60px;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+   
+}
+
+.banner__span{
+    text-align: center;
+    font-family: 'Assistant', sans-serif;
+    
+}
