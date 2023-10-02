@@ -44,6 +44,13 @@ header{
     color: black;
 }
 
+.icono-canasta{
+    color: Black;
+}
+
+.icono-lupa{
+    color: black;
+}
 
 .imagen-logo{
     display: flex;
@@ -98,11 +105,13 @@ li {
 
 ul li a{
     text-decoration: none;
+    color: #A9A9A9;
 }
 
 ul li a:hover{
     color: #000000;
-    border-bottom: #000000;
+    text-decoration: underline;
+    
 }
 
 /*********************************************************************SECCIóN*******************************************/
@@ -114,16 +123,17 @@ section{
     height: 455px;
 }
 section{
-    background-size: 100% ;
-  
+    background-size: cover ;
+
+
 }
 
 
 .banner{
     position: absolute;
-    display: flex;
+    display: grid;
     justify-content: center;
-    align-items: center;
+    
 }
 
 .banner{
@@ -131,21 +141,48 @@ section{
     top: 260px;
     height: 100px;
     width: 40%; 
-    
-    
-    
 }
 
 .banner__h2{
-    font-size: 60px;
+    font-size: 45px;
     text-align: center;
     text-transform: uppercase;
     color: white;
-   
+    
+
 }
 
 .banner__span{
     text-align: center;
     font-family: 'Assistant', sans-serif;
     
+}
+
+.banner__button{
+    width: 20%;
+    height: 40px;
+    padding: 10px;
+    display: grid;
+    justify-content: center;
+    margin: auto;
+}
+
+.banner__button{
+    border-color: white;
+    background: rgba(5, 7, 12, 0.0);
+    cursor: pointer;
+    
+}
+
+.banner__button a{
+    text-align: center;
+    text-decoration: none;
+    margin: auto;
+    color: wheat;
+    font-size: 15px;
+    
+}
+
+.banner__button:hover{
+    border-color: #FFFFFF;
 }
