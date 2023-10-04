@@ -111,7 +111,7 @@ ul li a{
 ul li a:hover{
     color: #000000;
     text-decoration: underline;
-    
+
 }
 
 /*********************************************************************SECCIóN**************************************************************/
@@ -133,14 +133,14 @@ section{
     position: absolute;
     display: grid;
     justify-content: center;
-    
+
 }
 
 .banner{
     right: 350px;
     top: 260px;
     height: 100px;
-    width: 40%; 
+    width: 40%;
 }
 
 .banner__h2{
@@ -148,14 +148,14 @@ section{
     text-align: center;
     text-transform: uppercase;
     color: white;
-    
+
 
 }
 
 .banner__span{
     text-align: center;
     font-family: 'Assistant', sans-serif;
-    
+
 }
 
 .banner__button{
@@ -171,7 +171,7 @@ section{
     border-color: white;
     background: rgba(5, 7, 12, 0.0);
     cursor: pointer;
-    
+
 }
 
 .banner__button a{
@@ -180,7 +180,7 @@ section{
     margin: auto;
     color: wheat;
     font-size: 15px;
-    
+
 }
 
 .banner__button:hover{
@@ -196,11 +196,11 @@ section{
 }
 
 .container__top-quality{
-    border: 1px solid #ccc;
-    padding: 25px;
+    /* border: 1px solid #ccc; */
+    padding: 10px;
     text-align: center;
-    width: 200px;
     margin: 10px;
+    
 }
 
 .container__top-quality img{
@@ -212,13 +212,18 @@ section{
 
 .container__top-quality h2, p{
     margin: 5px 0;
+    font-family: 'Assistant', sans-serif;
+    font-size: 15px;
+    font-weight: lighter;
+    text-transform: uppercase;
+    color: #A9A9A9;
 }
 
+
 .container__top-quality button {
-    padding: 10px 20px;
-    background-color: #007bff;
-    color: #ffffff;
-    border: none;
-    border-radius: 5px;
+    padding: 10px 35px;
+    border: 1px solid;
+    background-color: white;
+    color: black;
     cursor: pointer;
-}    
+}
