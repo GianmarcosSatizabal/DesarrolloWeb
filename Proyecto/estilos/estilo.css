@@ -210,15 +210,15 @@ section{
     margin-bottom: 10px;
 }
 
-.container__top-quality h2, p{
+
+.container__top-quality h2,p{
     margin: 5px 0;
     font-family: 'Assistant', sans-serif;
     font-size: 15px;
     font-weight: lighter;
     text-transform: uppercase;
-    color: #A9A9A9;
+    color: #000000;
 }
-
 
 .container__top-quality button {
     padding: 10px 35px;
@@ -226,4 +226,13 @@ section{
     background-color: white;
     color: black;
     cursor: pointer;
+    font-size: 15px;
+    
 }
+
+
+/* .container__center{
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+} */
