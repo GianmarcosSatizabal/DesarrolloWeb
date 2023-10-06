@@ -178,29 +178,33 @@ section{
     text-align: center;
     text-decoration: none;
     margin: auto;
-    color: wheat;
+    color: white;
     font-size: 15px;
 
 }
 
-.banner__button:hover{
-    border-color: #FFFFFF;
+.banner__button a:hover{
+    color: white;
 }
+.banner__button:hover{
+    color: white;
+    border: 1px solid white;
+}
+
 /*****************************************************************TablaDePrecio****************************************************************/
 
 .container{
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
     padding-top: 60px;
 }
 
 .container__top-quality{
-    /* border: 1px solid #ccc; */
     padding: 10px;
     text-align: center;
     margin: 10px;
-    
+
 }
 
 .container__top-quality img{
@@ -208,16 +212,32 @@ section{
     max-width: 200px;
     height: auto;
     margin-bottom: 10px;
+    
 }
 
 
-.container__top-quality h2,p{
-    margin: 5px 0;
+.container__top-quality h2{
     font-family: 'Assistant', sans-serif;
-    font-size: 15px;
+    font-size: 20px;
     font-weight: lighter;
     text-transform: uppercase;
     color: #000000;
+    
+}
+
+
+.container__top-quality p{
+    font-family: 'Assistant', sans-serif;
+    font-size: 15px;
+    color: #000000;
+    font-weight: lighter;
+   
+}
+
+
+.container__top-quality a{
+    text-decoration: none;
+    
 }
 
 .container__top-quality button {
@@ -227,12 +247,106 @@ section{
     color: black;
     cursor: pointer;
     font-size: 15px;
+    letter-spacing: 2px;
+    margin-top: 10px;
+    
+   
+}
+
+.container__top-quality button:hover{
+    border: 2px solid;
+    color: #000000;
+   
+}
+
+
+/**************************************************************** DIV ****************************************************************************/
+.mysteryBox{
+    margin-top: 25px;
+    background-repeat: no-repeat;
+    background-position:center;
+    height: 455px;
+    background-size: cover ;
+    left: 0%;
+    right: 0%;
+    background-image: url(../estilos/BANNER_2b.jpg);
+}
+
+.container-mysteryBox{
+    position: relative;
+    display: flex;
+    justify-content:right ;
+    /* background-color: aqua; */
+    width: 48%;
+    height: 160px;
+    left: 45%;
+    top: 20%;
+}
+
+.container-mysteryBox-h2{
+    width: 100%;
+    position: relative;
+    justify-content: right;
+    top: 9px;
+    right: 50px;
+    
+}
+
+.container-mysteryBox-h2-span{
+    /* height: 100px; */
+    text-align: right;
+    font-family: 'Assistant', sans-serif;
+    
     
 }
 
 
-/* .container__center{
+.container-mysteryBox-h2-span span{
+    font-size: 38px;
+    color: #ffffff;
+    text-transform: uppercase;
+    
+}
+
+.container_mysteryboX-{
+    position: relative;
     display: flex;
-    align-items:center ;
-    justify-content: center;
-} */
+    justify-content:right ;
+    padding-top: 20px;
+    padding-bottom: 25px;
+    color: #ffffff;
+}
+
+.container_mysteryboX- span{
+    /* font-weight: lighter; */
+    font-family: 'Assistant', sans-serif;
+}
+
+.mysteryBox__{
+    position: relative;
+    display: flex;
+    height: 50px;
+    width: 100%;
+    justify-content: flex-end;
+    /* background-color: aqua; */
+    
+    
+}
+.mysteryBox-button{
+    width: 20%;
+    text-align: center;
+    font-family: 'Assistant', sans-serif;
+    letter-spacing: 1px;
+    border: none;
+    cursor: pointer;
+}
+.mysteryBox-button a{
+    text-decoration: none;
+    color: #000000;
+    
+}
+.mysteryBox-button:hover{
+    background-color: #FFFFFF;
+    border: 1px solid white ;
+    transition-delay: 1px; ;
+}
