@@ -48,12 +48,17 @@ header{
     
 }
 
-.icono-canasta{
+.icono-canasta a{
+    text-decoration: none;
     color: Black;
 }
 
-.icono-lupa{
+
+
+
+.icono-lupa a{
     color: black;
+    text-decoration: none;
 }
 
 .imagen-logo{
