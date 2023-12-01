@@ -461,7 +461,7 @@ footer{
     height: 47px;
     border: 1px solid ;
     text-decoration: none;
-    box-decoration-break: none;
+    /* box-decoration-break: none; */
     font-family: 'Assistant', sans-serif ;
 }
     
